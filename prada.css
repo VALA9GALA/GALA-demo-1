@@ -12,19 +12,44 @@ body {
   text-align: center;
 }
 h1 {
-  margin-top: 80px;
+  margin-top: 60px;
+  font-size: 66px;
+  letter-spacing: 33px;
 }
-
+#email-form {
+  padding: 10px 30px;
+  font-size: 14px;
+  text-align: center;
+}
 #submit-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: antiquewhite;
-  background-color: blueviolet;
-  padding: 10px, 20px;
-  border-radius: 5px;
+  font-size: 14px;
+  background-color: black;
+  padding: 13px 20px 20px 20px;
+  border-radius: 0px 0px 50px 50px;
   border: 1px solid blueviolet;
-  margin-left: 10px;
+  margin: 0 auto;
+}
+#submit-btn span {
+  margin-top: 5px;
 }
 
 #submit-btn:hover {
   cursor: pointer;
   background-color: #b71f1f;
+}
+.center-alert {
+  text-align: center;
+}
+/*#conductor {
+  width: 300px;
+}*/
+#idiot-glee {
+  border: 1px solid blueviolet;
+  margin-top: 10px;
+  width: 330px;
 }
