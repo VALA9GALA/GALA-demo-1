@@ -1,5 +1,30 @@
 body {
-  background-color: blue;
+  background: #474bff;
+  background: -webkit-radial-gradient(
+    circle,
+    #474bff 0%,
+    #b71f1f 50%,
+    #bc48ff 100%
+  );
+  background: radial-gradient(circle, #474bff 0%, #b71f1f 50%, #bc48ff 100%);
+  background-repeat: no-repeat cover;
   color: antiquewhite;
   text-align: center;
+}
+h1 {
+  margin-top: 80px;
+}
+
+#submit-btn {
+  color: antiquewhite;
+  background-color: blueviolet;
+  padding: 10px, 20px;
+  border-radius: 5px;
+  border: 1px solid blueviolet;
+  margin-left: 10px;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: #b71f1f;
 }
